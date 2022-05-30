@@ -1,0 +1,26 @@
+{
+  "name": "esm-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start-ts": "ts-node index",
+    "start": "tsc && node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipeplets/esm-examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipeplets/esm-examples/issues"
+  },
+  "homepage": "https://github.com/felipeplets/esm-examples#readme",
+  "devDependencies": {
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  }
+}
