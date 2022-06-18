@@ -1,4 +1,4 @@
-For more details please check: https://stackoverflow.com/questions/63742790/unable-to-import-esm-ts-module-in-node/65163089?noredirect=1#comment127950169_65163089
+For more details please check: https://stackoverflow.com/questions/63742790
 
 The software in which this repo was tested is: 
 - NodeJS 18.2.0
