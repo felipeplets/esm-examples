@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start-ts": "ts-node index",
+    "start-ts-ok": "ts-node --experimental-specifier-resolution=node index",
     "start": "tsc && node index"
   },
   "repository": {
