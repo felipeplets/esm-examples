@@ -1,3 +1,5 @@
 import ts from "typescript"
+import { helloWorld } from "./Util"
 
-console.log(ts.version)
+console.log(helloWorld)
+console.log(`TypeScript Version: ${ts.version}`)

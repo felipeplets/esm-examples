@@ -8,6 +8,6 @@
     },
     "ts-node": {
         "esm": true,
-        "experimentalSpecifierResolution": true
+        "experimentalSpecifierResolution": "node"
     }
 }
