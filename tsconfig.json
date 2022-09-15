@@ -4,7 +4,8 @@
         "module": "ES2022",
         "moduleResolution": "Node",
         "target": "ES2022",
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "outDir": "dist/"
     },
     "ts-node": {
         "esm": true,
