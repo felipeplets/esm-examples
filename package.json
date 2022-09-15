@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start-ts": "ts-node index",
-    "start": "tsc && node --experimental-specifier-resolution=node index"
+    "start": "tsc && node --experimental-specifier-resolution=node ./dist"
   },
   "repository": {
     "type": "git",
