@@ -1,8 +1,9 @@
 import process from "process"
 import ts from "typescript"
 import tsNode from "ts-node"
-
-import { helloWorld } from "./Util"
+// Typescript does not like rewriting Specifiers so you 
+// target.js as that will be the identifier of the run able result
+import { helloWorld } from "./Util.js" 
 
 console.log(helloWorld)
 console.log(`NodeJS: ${process.version}`)
