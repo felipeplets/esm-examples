@@ -1,7 +1,7 @@
 For more details please check: https://stackoverflow.com/questions/63742790
 
 The software in which this repo was tested is: 
-- NodeJS 18.9.0
+- NodeJS 16x and 18x
 - TypeScript 4.8.3
 - ts-node 10.8.0
 
