@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/felipeplets/esm-examples#readme",
   "devDependencies": {
+    "@types/node": "^18.11.10",
     "ts-node": "^10.9.1",
-    "typescript": "^4.8.3"
+    "typescript": "^4.9.3"
   }
 }
