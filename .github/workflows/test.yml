@@ -26,4 +26,4 @@ jobs:
         run: npm start --workspace @esm-examples/nodejs-vanilla
       - name: Run in Node.js < 19
         if: ${{ matrix.node-version != '19.x'}}
-        run: npm start --workspace @esm-examples/nodejs-vanilla
+        run: npm start --workspace @esm-examples/nodejs-vanilla-no-extension
