@@ -1,0 +1,22 @@
+{
+    "name": "@esm-examples/nodejs-vanilla-no-extension",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+      "start": "tsc && node --experimental-specifier-resolution=node ./src"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/felipeplets/esm-examples.git"
+    },
+    "keywords": ["esm, nodejs", "node"],
+    "author": "Felipe Plets <felipe@plets.me> (http://plets.me/)",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/felipeplets/esm-examples/issues"
+    },
+    "homepage": "https://github.com/felipeplets/esm-examples#readme"
+  }
+  
