@@ -1,5 +1,5 @@
 {
-  "name": "esm-examples",
+  "name": "@esm-examples/root",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -23,5 +23,6 @@
     "@types/node": "^18.15.10",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.2"
-  }
+  },
+  "workspaces": ["packages/**/*"]
 }

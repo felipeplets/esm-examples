@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [12.x, 14.x, 16.x, 18.x, 19.x]
 
     steps:
       - uses: actions/checkout@v3
@@ -22,5 +22,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm ci
-      - run: npm run start-ts
-      - run: npm start
+      - name: Run in all Node.js version
+        run: npm start --workspace @esm-examples/nodejs-vanilla
+      - name: Run in Node.js < 19
+        if: ${{ matrix.node-version != '19.x'}}
+        run: npm start --workspace @esm-examples/nodejs-vanilla-no-extension
